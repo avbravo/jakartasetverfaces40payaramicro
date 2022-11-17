@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-clean and run</actionName>
+            <displayName>clean and run</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>verify</goal>
+                <goal>payara-micro:bundle</goal>
+                <goal>payara-micro:start</goal>
+            </goals>
+        </action>
+    </actions>
